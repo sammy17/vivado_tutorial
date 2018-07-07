@@ -1,0 +1,26 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 199.246 ; gain = 11.816
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Medium/vivado_hls'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2015.4/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:01:23 . Memory (MB): peak = 276.137 ; gain = 76.891
+Command: synth_design -top design_1_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+WARNING: [Common 17-348] Failed to get the license for feature 'Synthesis' and/or device 'xc7z020'
+3 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xc7z020'. Please run the Vivado License Manager for assistance in determining
+which features and devices are licensed for your system.
+Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 07 19:41:03 2018...
